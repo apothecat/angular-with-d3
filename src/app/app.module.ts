@@ -5,13 +5,15 @@ import { AppComponent } from './app.component';
 import { BarComponent } from './bar/bar.component';
 import { PieComponent } from './pie/pie.component';
 import { ScatterComponent } from './scatter/scatter.component';
+import { TestComponent } from './test/test.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     BarComponent,
     PieComponent,
-    ScatterComponent
+    ScatterComponent,
+    TestComponent
   ],
   imports: [
     BrowserModule
